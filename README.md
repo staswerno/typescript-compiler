@@ -52,3 +52,7 @@ tsconfig.json
   - replicates folder structure
   - set output files to dist when ts files in src
 - **remove comments**
+- noEmitOnError
+  - doesn't generate problematic files
+- strict options
+  - set various strict checks to true/false
