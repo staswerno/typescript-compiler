@@ -55,4 +55,8 @@ tsconfig.json
 - noEmitOnError
   - doesn't generate problematic files
 - strict options
-  - set various strict checks to true/false
+  - set various strict checks to true/false#
+- code quality options
+  - noUnusedLocals
+  - noUnusedParameters
+  - noImplicitReturns (maybe)
