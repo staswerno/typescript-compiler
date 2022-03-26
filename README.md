@@ -42,3 +42,9 @@ tsconfig.json
 - lib
   - eg ["dom", "es6", "dom.iterable", "scripthost"]
     - but this is default for es6 so not needed to add
+- allowJs/checkJs
+  - can use some TS features in JS
+- SourceMap
+  - helps with dev/debugging
+  - set to true to create map files to debug in dev tools
+- outDir/rootDir
