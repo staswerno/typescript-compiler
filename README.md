@@ -47,4 +47,8 @@ tsconfig.json
 - SourceMap
   - helps with dev/debugging
   - set to true to create map files to debug in dev tools
-- outDir/rootDir
+- **outDir/rootDir**
+  - good for cleaner project structure
+  - replicates folder structure
+  - set output files to dist when ts files in src
+- **remove comments**
