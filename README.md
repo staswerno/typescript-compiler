@@ -28,5 +28,17 @@ tsconfig.json
   }
 ```
 
-_common to exclude node_modules, but it is excluded by default_
+_common to exclude node_modules, but it is excluded by default_  
 _complies as include minus exclude_
+
+### compiler options
+
+tsconfig.json
+
+- target
+  - es6 === es2015
+- modules
+  - coming back to later
+- lib
+  - eg ["dom", "es6", "dom.iterable", "scripthost"]
+    - but this is default for es6 so not needed to add
