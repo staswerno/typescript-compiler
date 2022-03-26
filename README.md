@@ -1,12 +1,12 @@
 ## The Typescript Compiler
 
-# watch mode
+### watch mode
 
 tsc app.ts -w  
 _don't close during dev_
 _won't compile with errors_
 
-# global tsc
+### global tsc
 
 tsc --init  
 _only required once_
